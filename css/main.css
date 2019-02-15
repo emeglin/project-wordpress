@@ -1,0 +1,172 @@
+/* general css */
+.bg_blue {
+    background-color: #63D5C9;
+}
+
+/* banner css */
+#banner {
+    border-bottom: 5px solid rgba(213, 63, 67, 1);
+    height: 200px;
+    width: 100%;
+    background-color: #A1E4DA;
+    background-image: url('../img/banner1.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+#main-logo img{
+    filter: drop-shadow(1.5px 1.5px 0.3px #00000096);
+    height: 180px;
+    width: auto;
+}
+#banner #social-btn a{
+    display:inline-block;
+    font-size: 2.5em;
+    height:3.5rem;
+    width:3.5rem;
+    color: rgb(255, 255, 255);    
+    filter: drop-shadow(1.5px 1.5px 0.3px #00000096);
+}
+#social-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.navbar{
+    height: 50px;
+    width: 100%;
+    background-color: #63D5C9;
+}
+
+.bg-light{
+    background-color: #63D5C9 !important;
+}
+
+/* navbar css */
+.navbar a{
+    font-family: aleoregular;
+    font-size: 1.3em;
+    color: white;
+}
+
+.collapse a:hover{
+    font-family: aleobold;
+    background-color: rgba(0, 0, 0, 0.5)
+}
+
+.navbar-brand img{
+    height: 20px;
+}
+
+.navbar button i {
+    padding: 6px 10px;
+    border-radius: 5px;
+    display:inline-block;
+    border: 2px solid rgb(78, 148, 137);
+}
+
+.navbar #social-btn a{
+    display:inline-block;
+    font-size: 1.5em;
+    height:2rem;
+    width:2rem;
+    color: rgb(255, 255, 255);
+}
+
+/* intro css */
+
+.intro_txt{
+border-radius: 2px;
+max-height: 600px;
+max-width: 60%;
+background-image: url('../img/background.svg');
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.intro_txt img{
+    top:-5%;
+    height: 30%;
+}
+
+.intro_txt p{
+    font-family: aleobold;
+    font-size: 1.3em;
+    color: white;
+}
+
+
+@media (max-width: 670px) {
+    .intro_txt {
+        background-image: url('../img/mobile_bg.svg');
+        background-repeat: repeat;
+        max-width: 85%;
+        max-height: 900px;
+    }
+    .intro_txt p{
+        font-size: 1.1em;
+    }
+    .intro_txt img{
+        top: -5%;
+        height: 15%;
+    }
+}
+
+
+
+footer {
+    border-top: 5px solid rgba(213, 63, 67, 1);
+    background-color: #61d5c9;
+    position: absolute;
+    color: white; 
+    width: 100%;
+    max-height: 500px;
+
+}
+
+footer img{
+    height: 5em;
+    width: auto;
+    margin-right: 2%;
+    margin-top: 1%;
+}
+ 
+footer p{
+    padding: 0%;
+    margin: 0%;
+}
+footer input {
+    height: 2em;
+    width: 10em;
+}
+
+.newsletter{
+    height: 10em;
+    width: 25em;
+}
+footer .social-btn a { 
+    display:inline-block;
+    font-size: 3em;
+    padding: 0em 0.75em;
+    color: rgb(255, 255, 255); 
+} 
+
+#size-reseau {
+    font-size: 1.2em;
+}
+
+.position-text {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.position-float {
+    float: left;
+}
+
+.social-footer-size {
+    height:100%;
+}
